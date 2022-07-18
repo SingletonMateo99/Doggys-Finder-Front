@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import s from './NavBar.module.css'
 import { Link } from 'react-router-dom'
-import { connect } from "react-redux";
 import SearchBar from "./SearchBar";
 import Filter from "./Filter";
 
