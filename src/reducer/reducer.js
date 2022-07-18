@@ -16,7 +16,7 @@ export default function reducer(state = initialState, action) {
         ...state,
         breeds: action.payload,
         prueba: action.payload,
-        //filteredBreeds:action.payload no va por q resetea  asd
+        //filteredBreeds:action.payload no va por q resetea  asd asdsad
         
     }
     case GET_TEMPERAMENT: return {
